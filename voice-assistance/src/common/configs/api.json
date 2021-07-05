@@ -1,0 +1,6 @@
+{
+  "server": "https://template.talos.sh",
+  "resources": {
+    "device": "/voice-assistance/device"
+  }
+}

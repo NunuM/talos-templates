@@ -1,0 +1,21 @@
+{
+  "name": "voice-assistance",
+  "version": "1.0.0",
+  "description": "Bot template",
+  "homepage": "https://talos.sh/docs/templates/productivity/voice-assistance",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "bot",
+    "dialogueflow",
+    "talos"
+  ],
+  "author": "nunum",
+  "license": "MIT",
+  "dependencies": {
+    "taloslambdadefs": "^1.0.7",
+    "ytdl-core": "^4.8.3"
+  }
+}
