@@ -74,4 +74,16 @@ class PlayMusic extends Intent {
     }
 }
 
+const d = new PlayMusic('Becky G');
+
+d.execute().finally(() => d.postProcess({
+    query: () => {
+        return Promise.resolve();
+    }
+}, {
+    post: () => {
+        return Promise.resolve()
+    }
+}));
+
 module.exports = {PlayMusic};
